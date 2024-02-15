@@ -1,4 +1,4 @@
-def solution(x):
+def solution(x): # 자릿수 더하기 응용
     m = x
     answer = 0
     while True:
