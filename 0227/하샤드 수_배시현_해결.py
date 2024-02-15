@@ -2,9 +2,9 @@ def solution(x):
     m = x
     answer = 0
     while True:
-        answer += x % 10 # 여기까지 더하고
+        answer += x % 10
         if x // 10 == 0:
-            break # 반복문을 끝내라
+            break
         else:
             x = x // 10
     if m % answer == 0:
