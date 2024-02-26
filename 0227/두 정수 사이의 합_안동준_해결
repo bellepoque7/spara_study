@@ -1,0 +1,7 @@
+#22번
+def solution(a, b):
+    min_num = min(a, b)
+    max_num = max(a, b)
+    if a == b:
+        return a
+    return sum(range(min_num, max_num + 1))
