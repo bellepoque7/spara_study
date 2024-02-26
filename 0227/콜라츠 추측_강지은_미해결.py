@@ -10,3 +10,4 @@ def solution(num):
             return i+1
     return -1
 
+#테스트 통과했으나 정확도 93.8
