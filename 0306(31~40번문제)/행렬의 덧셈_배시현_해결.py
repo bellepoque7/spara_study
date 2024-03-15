@@ -1,3 +1,5 @@
+# 경우의 수를 잘못 잡아서 마지막까지 안풀렸다.
+
 def solution(arr1, arr2): # ex) arr1 = [[1,2],[2,3],[3,4]]도 고려해야 한다.
     answer = [] # 최종값
     for i in range(len(arr1)): # 1차적으로 리스트 길이만큼 반복한다.
